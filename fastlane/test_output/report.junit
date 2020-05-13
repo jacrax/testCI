@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='UpcomingEventsTests.xctest' tests='4' failures='0'>
+  <testsuite name='UpcomingEventsTests.UpcomingEventsTests' tests='4' failures='0'>
+    <testcase classname='UpcomingEventsTests.UpcomingEventsTests' name='testEventPresenter' time='0.004'/>
+    <testcase classname='UpcomingEventsTests.UpcomingEventsTests' name='testEventPresenterEmpty' time='0.001'/>
+    <testcase classname='UpcomingEventsTests.UpcomingEventsTests' name='testEventPresenterFailure' time='0.005'/>
+    <testcase classname='UpcomingEventsTests.UpcomingEventsTests' name='testEventPresenterWithConflicts' time='0.002'/>
+  </testsuite>
+</testsuites>
