@@ -14,4 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build
+      run: xcodebuild clean -project UpcomingEvents.xcodeproj -scheme UpcomingEvents -destination "platform=iOS Simulator,name=iPhone 11 Pro"
+    - name: Test
       run: xcodebuild clean test -project UpcomingEvents.xcodeproj -scheme UpcomingEvents -destination "platform=iOS Simulator,name=iPhone 11 Pro"
